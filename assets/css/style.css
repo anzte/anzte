@@ -16,26 +16,33 @@
   font-weight: 500;
   font-size: 14px;
   color : #000000 !important;
+  transition: all 0.25s ease-in;
 }
 
 .navbar li a:hover {
-  /*color:black !important;*//*
-  text-transform: uppercase;*/
+  /*color:black !important;*/
+  text-transform: none;
   /*font-weight: 500;*/
   font-size : 15px;
-  color : #ff0000 !important;
+  color : #ff0000 !important; 
+  transition: all 0.25s ease-out; 
+}
+
+.logo-anz, .logo-te {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
 }
 
 .logo-anz {
   color: #000000;
-  font-size: 40px;
-  font-weight: 700;
-  font-family: 'Lato', sans-serif;
 }
+
 .logo-te{
   color: #ff0000;
-  font-size: 40px;
-  font-weight: 700;
-  font-family: 'Lato', sans-serif;
-
 }
+
+/*.navbar-inverse .navbar-collapse
+{
+  border-color: transparent !important;
+}*/
