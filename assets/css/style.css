@@ -1,6 +1,7 @@
 * {
   margin:0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -11,14 +12,25 @@
 
 .navbar li a {
   /*color:black !important;*/
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 500;
-  font-size: 12px;
+  /*font-size: 12px;*/
 }
 
 .navbar li a:hover {
   /*color:black !important;*/
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 25px;
+  /*font-size: 12px;*/
+}
+
+.anz {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+}
+.te{
+  color: #ff0000;
+  font-size: 40px;
+  font-weight: 700;
 }
