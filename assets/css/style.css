@@ -28,6 +28,10 @@
   transition: all 0.25s ease-out; 
 }
 
+/*.logo-anzte{
+  border: 1px solid #000000;
+}*/
+
 .logo-anz, .logo-te {
   font-size: 40px;
   font-weight: 700;
@@ -45,4 +49,9 @@
 /*.navbar-inverse .navbar-collapse
 {
   border-color: transparent !important;
+}*/
+
+/*.navbar-our-location
+{
+  border: 1px solid #000000 !important;
 }*/
