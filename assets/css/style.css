@@ -12,25 +12,30 @@
 
 .navbar li a {
   /*color:black !important;*/
-  /*text-transform: uppercase;*/
+  text-transform: lowercase;
   font-weight: 500;
-  /*font-size: 12px;*/
+  font-size: 14px;
+  color : #000000 !important;
 }
 
 .navbar li a:hover {
-  /*color:black !important;*/
-  text-transform: uppercase;
-  font-weight: 500;
-  /*font-size: 12px;*/
+  /*color:black !important;*//*
+  text-transform: uppercase;*/
+  /*font-weight: 500;*/
+  font-size : 15px;
+  color : #ff0000 !important;
 }
 
-.anz {
+.logo-anz {
   color: #000000;
   font-size: 40px;
   font-weight: 700;
+  font-family: 'Lato', sans-serif;
 }
-.te{
+.logo-te{
   color: #ff0000;
   font-size: 40px;
   font-weight: 700;
+  font-family: 'Lato', sans-serif;
+
 }
