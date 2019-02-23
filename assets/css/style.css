@@ -31,6 +31,13 @@
   transition: all 0.25s ease-out; 
 }
 
+.navbar-default {
+    /*background-color: #f8f8f8;*/
+    /*border-color: #e7e7e7;*/
+background-color: rgba(248,248,248,0.90) !important;
+border-color: rgba(231,231,231,0.90) !important;
+}
+
 /*.logo-anzte{
   border: 1px solid #000000;
 }*/
