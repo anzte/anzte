@@ -1,4 +1,4 @@
-/*=====basic=====*/
+=====basic=====*/
 
 * {
   margin:0;
@@ -276,17 +276,16 @@ font-size: 20px;
   transition: all 0.5s; 
 }
 
-.service-wrap:hover .service-icon i{
-  transform: rotate(360deg);
-}
-
-
-/*.service-icon:hover  i{
+/*.service-wrap:hover .service-icon i{
   transform: rotate(360deg);
 }*/
 
+.service-icon:hover  i{
+  transform: rotate(360deg);
+}
+
 .service-wrap h3{
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
   padding-bottom: 15px;
   position: relative;
@@ -298,4 +297,4 @@ font-size: 20px;
     margin-bottom: 0;
 }
 
-/*=====section two - services - end=====*/
+/*=====section two - services - end=====
