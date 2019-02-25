@@ -45,4 +45,13 @@
       $('.anzte-padding-top').removeClass('anzte-padding-top'); // remove existing active
       $(id).addClass('anzte-padding-top'); // set current link as active
     });
+
+
+    //magnific popup
+    $('.works').magnificPopup({
+      delegate: 'a', // child items selector, by clicking on it popup will open
+      type: 'image'
+      // other options
+    });
+
 });
