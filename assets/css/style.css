@@ -29,6 +29,19 @@
   color:#000000;
 }
 
+.anzte-padding-top{
+      padding-top: 100px;
+}
+
+/*body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}*/
+
 /*=====basic=====*/
 
 /*=====header=====*/
@@ -95,7 +108,7 @@ border-color: rgba(231,231,231,0.90) !important;
 .secondary
 {
     /*background-color:#34495e;*/
-    background-color: #ffffff !important;
+    background-color: #ffffff !important;    
 }
 
 
@@ -236,6 +249,7 @@ font-size: 20px;
   transition: all 0.5s ease 0s;
   z-index: 9;
   margin-top: 20px;
+  margin-bottom: 10px;
   height: 250px;
 }
 

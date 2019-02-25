@@ -39,4 +39,10 @@
                 // console.log('test message remove secondary');
             }
     });
+
+    $("a").on("click", function() {
+      var id = $(this).attr('href');
+      $('.anzte-padding-top').removeClass('anzte-padding-top'); // remove existing active
+      $(id).addClass('anzte-padding-top'); // set current link as active
+    });
 });
