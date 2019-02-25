@@ -47,11 +47,13 @@
     });
 
 
-    //magnific popup
+    //magnific popup: Responsive jQuery Lightbox Plugin - Dmitry Semenov
     $('.works').magnificPopup({
       delegate: 'a', // child items selector, by clicking on it popup will open
-      type: 'image'
-      // other options
+      type: 'image',
+      gallery:{
+        enabled:true
+      }
     });
 
 });
