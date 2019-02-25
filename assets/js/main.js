@@ -12,9 +12,9 @@
         // "<span><span class='anzte-black'>anz</span><span class='anzte-red btn-light'>te</span><span> -</span><span> Technology People</span></span>",
         // "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span> -</span><span> A team</span></span>",
         // "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span> -</span><span> Born out of the BOX</span></span>",        
-        "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span> -</span><span> Information Technology and Services Company</span></span>",
-        "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span> -</span><span> Web Development</span></span>",
-        "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span> -</span><span> Make people's lives SIMPLE</span></span>"
+        "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span class='anzte-silver'> -</span><span class='anzte-black'> Information Technology and Services Company</span></span>",
+        "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span class='anzte-silver'> -</span><span class='anzte-black'> Web Development</span></span>",
+        "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span class='anzte-silver'> -</span><span class='anzte-black'> Make people's lives SIMPLE</span></span>"
         ],
          typespeed:0,
          loop:true
