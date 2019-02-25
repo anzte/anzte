@@ -15,13 +15,11 @@
         // "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span class='anzte-silver'> -</span><span class='anzte-black'> Information Technology and Services Company</span></span>",
         // "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span class='anzte-silver'> -</span><span class='anzte-black'> Web Development</span></span>",
         // "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span class='anzte-silver'> -</span><span class='anzte-black'> Make people's lives SIMPLE</span></span>"
-        "<span class='anzte-black'> Information Technology and Services Company </span>",
-        "<span class='anzte-black'> Website Design </span>",
-        "<span class='anzte-black'> Website Development </span>",
-        "<span class='anzte-black'> Web Hosting </span>",
+        "<span class='anzte-black'> <a href='/' class='anzte-a anzte-black'>Information Technology &amp; Services Company </a></span>",
+        "<span class='anzte-black'> Website Design &amp; Development </span>",
+        "<span class='anzte-black'> Web Hosting &amp; Ongoing Support </span>",
         "<span class='anzte-black'> eCommerce Websites </span>",
         "<span class='anzte-black'> eMarketing Campaigns </span>",
-        "<span class='anzte-black'> Ongoing Support </span>",
         "<span class='anzte-black'> Make people's lives SIMPLE </span>"
         ],
          typespeed:0,
