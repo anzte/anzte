@@ -329,4 +329,36 @@ font-size: 20px;
     margin-bottom: 0;
 }
 
-/*=====section two - services - end=====
+/*=====section two - services - end=====*/
+/*=====section three - works - start=====*/
+.works{
+  margin-top: 30px;
+}
+
+.works .container-fluid{
+  margin-top: 80px;
+}
+
+.row.no-gutters [class*=col-]
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wrapper
+{
+    overflow: hidden;
+}
+
+.img-wrapper img
+{
+   transition: transform 0.5s ease;
+   width: 100%;
+}
+
+.img-wrapper img:hover
+{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+/*=====section three - works - end=====*/
