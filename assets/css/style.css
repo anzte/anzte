@@ -166,6 +166,7 @@ font-size: 20px;
 .social-networks a.fa:hover{
   text-decoration: none;
   color:#ff0000;
+  background-color: #eeeeee;
   transition: all 0.25s ease-in; 
 }
 
