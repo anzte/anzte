@@ -60,4 +60,6 @@
       }
     });
 
+    //owl carousel
+    $("#team-members").owlCarousel();
 });
