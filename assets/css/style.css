@@ -33,6 +33,10 @@
       padding-top: 100px;
 }
 
+.anzte-padding-bottom{
+      padding-bottom: 25px;
+}
+
 /*body {
   padding-top: 60px;
 }
@@ -330,7 +334,8 @@ font-size: 20px;
 }
 
 /*=====section two - whatwedo - end=====*/
-/*=====section three - works - start=====*/
+
+/*=====section three - ourwork - start=====*/
 .works{
   margin-top: 30px;
 }
@@ -361,4 +366,51 @@ font-size: 20px;
     transform: scale(1.5);
     cursor: zoom-in;
 }
-/*=====section three - works - end=====*/
+/*=====section three - ourwork - end=====*/
+
+/*=====section four - whoweare - end=====*/
+.team-member
+{
+  margin: 0 25px;
+}
+
+.team-member-info
+{
+  padding: 10px 0 30px 0;
+}
+
+h4.team-member-name
+{
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-top: 2px;
+}
+
+h4.team-member-designation
+{
+  color:#ff0000;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+.social-list {
+  padding-left: 0px;  
+}
+
+.social-list li {
+  list-style: none;
+  display: inline-block;
+  width : 32px;
+  margin-right:6px;
+  margin-top: 10px;
+}
+
+.social-list i {
+  {
+    font-size: 17px;
+  }
+/*=====section four - whoweare - end=====*/
