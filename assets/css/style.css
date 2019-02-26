@@ -229,19 +229,19 @@ font-size: 20px;
 
 /*=====section one - slider - end=====*/
 
-/*=====section two - services - start=====*/
+/*=====section two - whatwedo - start=====*/
 
-.service-area
+.whatwedo-area
 {
     margin-top: 30px;
 }
 
-.service-area p
+.whatwedo-area p
 {
    margin-bottom: -5px;
 }
 
-.service-wrap {
+.whatwedo-wrap {
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   overflow: hidden;
   padding: 25px 35px;
@@ -253,7 +253,7 @@ font-size: 20px;
   height: 250px;
 }
 
-.service-wrap::before, .service-wrap::after {
+.whatwedo-wrap::before, .whatwedo-wrap::after {
   content: "";
   height: 300%;
   position: absolute;
@@ -266,43 +266,43 @@ font-size: 20px;
   background: #34495e;
 }
 
-.service-wrap::before {
+.whatwedo-wrap::before {
   top: -37px;
   left: 100%;
 }
 
-.service-wrap:hover:before {
+.whatwedo-wrap:hover:before {
     left:-27px;
     opacity:1;
 }
 
-.service-wrap::after {
+.whatwedo-wrap::after {
   right: 100%;
   bottom: -37px;
 }
 
-.service-wrap:hover:after {
+.whatwedo-wrap:hover:after {
   right: -27px;
   opacity: 1;
 }
 
-.service-wrap:hover {
+.whatwedo-wrap:hover {
   color: #ffffff;
 }
 
-.service-wrap:h3 {
+.whatwedo-wrap:h3 {
   color: #ffffff;
 }
 
-.service-wrap:hover h3 {
+.whatwedo-wrap:hover h3 {
   color: #ffffff;
 }
 
-.service-wrap:hover h3:after {
+.whatwedo-wrap:hover h3:after {
   background-color: #ffffff;
 }
 
-.service-icon i{
+.whatwedo-icon i{
   font-size: 30px;
   margin-bottom: 20px;
   transition: all 0.5s; 
@@ -312,32 +312,32 @@ font-size: 20px;
   transform: rotate(360deg);
 }*/
 
-.service-icon:hover  i{
+.whatwedo-icon:hover  i{
   transform: rotate(360deg);
 }
 
-.service-wrap h3{
+.whatwedo-wrap h3{
   font-size: 22px;
   font-weight: 700;
   padding-bottom: 15px;
   position: relative;
 }
 
-.service-wrap p
+.whatwedo-wrap p
 {
     font-size: 14px;
     margin-bottom: 0;
 }
 
-/*=====section two - services - end=====*/
+/*=====section two - whatwedo - end=====*/
 /*=====section three - works - start=====*/
 .works{
   margin-top: 30px;
 }
 
-.works .container-fluid{
+/*.works .container-fluid{
   margin-top: 80px;
-}
+}*/
 
 .row.no-gutters [class*=col-]
 {

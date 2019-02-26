@@ -15,12 +15,15 @@
         // "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span class='anzte-silver'> -</span><span class='anzte-black'> Information Technology and Services Company</span></span>",
         // "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span class='anzte-silver'> -</span><span class='anzte-black'> Web Development</span></span>",
         // "<span><span class='anzte-black'>anz</span><span class='anzte-red'>te</span><span class='anzte-silver'> -</span><span class='anzte-black'> Make people's lives SIMPLE</span></span>"
-        "<span class='anzte-black'> <a href='/' class='anzte-a anzte-black'>Information Technology &amp; Services Company </a></span>",
+        // "<span class='anzte-black'> Make people's lives SIMPLE </span>,"
+        "<span class='anzte-black'> We’re an agile, dynamic, full service web agency, offering a wide range of design and development services </span>",
+        "<span class='anzte-black'> Website design and development are at the core of our capabilities, with other services adding strength and depth to what we can offer </span>",
+        "<span class='anzte-black'> <a href='/' class='anzte-a anzte-black'>Information Technology &amp; Services </a></span>",
         "<span class='anzte-black'> Website Design &amp; Development </span>",
         "<span class='anzte-black'> Web Hosting &amp; Ongoing Support </span>",
         "<span class='anzte-black'> eCommerce Websites </span>",
-        "<span class='anzte-black'> eMarketing Campaigns </span>",
-        "<span class='anzte-black'> Make people's lives SIMPLE </span>"
+        "<span class='anzte-black'> eMarketing Campaigns </span>"
+        
         ],
          typespeed:0,
          loop:true
