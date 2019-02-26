@@ -21,12 +21,12 @@
 
 .anzte-a{
   text-decoration: none;
-  color:#000000;
+  color:#C0C0C0;
 }
 
 .anzte-a:hover{
   text-decoration: none;
-  color:#000000;
+  color:#ff0000;
 }
 
 .anzte-padding-top{
@@ -368,7 +368,7 @@ font-size: 20px;
 }
 /*=====section three - ourwork - end=====*/
 
-/*=====section four - whoweare - end=====*/
+/*=====section four - ourteam - end=====*/
 .team-member
 {
   margin: 0 25px;
@@ -413,4 +413,6 @@ h4.team-member-designation
   {
     font-size: 17px;
   }
-/*=====section four - whoweare - end=====*/
+
+
+/*=====section four - ourteam - end=====*/
