@@ -244,10 +244,9 @@ font-size: 20px;
 /*=====section one - slider - end=====*/
 
 /*=====section two - whatwedo - start=====*/
-
 .whatwedo-area
 {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .whatwedo-area p
@@ -347,7 +346,7 @@ font-size: 20px;
 
 /*=====section three - ourwork - start=====*/
 .works{
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 /*.works .container-fluid{
@@ -379,6 +378,11 @@ font-size: 20px;
 /*=====section three - ourwork - end=====*/
 
 /*=====section four - ourteam - end=====*/
+
+.ourteam{
+  margin-top: 50px;
+}
+
 .team-member
 {
   margin: 0 25px;
@@ -426,3 +430,7 @@ h4.team-member-designation
 
 
 /*=====section four - ourteam - end=====*/
+
+.testimonials{
+  margin-top: 50px;
+}
