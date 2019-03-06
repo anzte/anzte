@@ -436,7 +436,7 @@ h4.team-member-designation
 }
 
 
-.carousel-indicators li {
+/*.carousel-indicators li {
     display: inline-block;
     width: 48px;
     height: 48px;
@@ -453,4 +453,47 @@ h4.team-member-designation
     height: 48px;
     margin: 10px;
     background-color: #ffff99;
+}*/
+
+.carousel-inner img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+.testimonials
+{
+    background-image: url('..//assets/img/testimonial/testimonial.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.testimonials .carousel-indicators
+{
+    bottom: -60px;
+}
+
+.border-bottom
+{
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    margin:0 auto;
+}
+
+.carousel-inner p
+{
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    
+         
 }
