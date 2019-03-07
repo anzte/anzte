@@ -431,9 +431,16 @@ h4.team-member-designation
 
 /*=====section four - ourteam - end=====*/
 
+/*=====section five - testimonials - start=====*/
 /*.testimonials{
   margin-top: 50px;
 }*/
 
-
+/*.border-bottom{
+  width:40px;
+  height: 2px;
+  background-color: white;
+  margin: 0 auto;
+}*/
+/*=====section five - testimonials - end=====*/
 
