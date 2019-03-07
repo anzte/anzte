@@ -489,7 +489,6 @@ h4.team-member-designation
     border-radius: 10px;
 }
 
-
 #accordian .panel-title a
 {
     display: block;
@@ -502,7 +501,6 @@ h4.team-member-designation
     position: relative;
     transition: all 0.3s ease 0s;
 }
-
 
 #accordian .panel-title a:after,
 #accordian .panel-title a.collapsed:after
@@ -530,13 +528,11 @@ h4.team-member-designation
     content: "\f067";
 }
 
-
 #accordian .panel-title a:hover:after,
 #accordian .panel-title a.collapsed:hover:after 
 {
     transform: rotate(360deg);
 }
-
 
 #accordian .panel-body
 {
@@ -547,8 +543,6 @@ h4.team-member-designation
     line-height: 25px;
     border-top: none;
     position: relative;
-       
-    
 }
 
 .panel-heading a
@@ -558,10 +552,64 @@ h4.team-member-designation
     font-weight: normal;
 }
 
-
 .freeimage img
 {
     margin-top: -45px;
 }
 /*=====section six - faq - end=====*/
+
+/*=====section seven - video - start=====*/
+.video-area
+{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)),url(..//img/video.jpg);
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    overflow: hidden;
+    margin-top: 40px;
+    background-attachment: fixed;
+}
+
+.play
+{
+    background:#fff url(..//img/video/play-btn.png) no-repeat  60% 50%;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
+    -webkit-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
+    -moz-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
+    -o-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
+    transition: all .4s ease-in
+    -webkit-transition: all .4s ease-in
+    -moz-transition: all .4s ease-in
+    -o-transition: all .4s ease-in
+    -ms-transition: all .4s ease-in
+}
+
+.play:hover
+{
+    box-shadow: 0px 0px 15px  20px rgba(0,84,111,0.5);
+    -webkit-box-shadow: 0px 0px 15px  20px rgba(0,84,111,0.5);
+    -moz-box-shadow: 0px 0px 15px  20px rgba(0,84,111,0.5);   
+}
+
+.video-container
+{
+   position: relative;
+    padding-bottom: 54.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-top: -130px;
+    display: none;
+}
+/*=====section seven - video - end=====*/
 
