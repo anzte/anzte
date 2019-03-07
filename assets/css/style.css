@@ -1,4 +1,4 @@
-=====basic=====*/
+/*=====basic=====*/
 
 body {
   overflow-x: hidden;
@@ -51,6 +51,10 @@ body {
       padding-bottom: 25px;
 }
 
+.anzte-section-margin-top{
+  margin-top:50px;
+}
+
 /*body {
   padding-top: 60px;
 }
@@ -66,7 +70,7 @@ body {
 .navbar {
   padding: 22px 0px;
   /*background-color: #34495e !important; */
-  /*border-bottom: none !important; */*/  
+  /*border-bottom: none !important; */
   transition: all 0.5s ease-in-out;
 }
 
@@ -349,9 +353,9 @@ font-size: 20px;
 /*=====section two - whatwedo - end=====*/
 
 /*=====section three - ourwork - start=====*/
-.works{
+/*.works{
   margin-top: 50px;
-}
+}*/
 
 /*.works .container-fluid{
   margin-top: 80px;
@@ -383,9 +387,9 @@ font-size: 20px;
 
 /*=====section four - ourteam - end=====*/
 
-.ourteam{
+/*.ourteam{
   margin-top: 50px;
-}
+}*/
 
 .team-member
 {
@@ -428,7 +432,6 @@ h4.team-member-designation
 }
 
 .social-list i {
-  {
     font-size: 17px;
   }
 
@@ -436,15 +439,129 @@ h4.team-member-designation
 /*=====section four - ourteam - end=====*/
 
 /*=====section five - testimonials - start=====*/
-/*.testimonials{
-  margin-top: 50px;
-}*/
 
-/*.border-bottom{
-  width:40px;
-  height: 2px;
-  background-color: white;
+.carousel-inner img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+.testimonials
+{
+  background-image: url('..//img/testimonial/testimonial.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  color: white; 
+  padding-top:150px; 
+  padding-bottom: 150px;
+}
+
+.border-bottom{
+  width:40px;  
+  height: 2px;  
+  background-color: white;  
   margin: 0 auto;
-}*/
+}
+
+.testimonials .carousel-indicators
+{
+    bottom: -60px;
+}
 /*=====section five - testimonials - end=====*/
+
+/*=====section six - faq - start=====*/
+#accordian .panel
+{
+  box-shadow: none;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;  
+}
+
+#accordian .panel-heading
+{
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#accordian .panel-title a
+{
+    display: block;
+    padding: 22px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background: #34495e;
+    border: none;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+
+#accordian .panel-title a:after,
+#accordian .panel-title a.collapsed:after
+{
+    content: "\f068";
+    font-family: fontawesome;
+    width: 40px;
+    height: 40px;
+    line-height: 32px;
+    border-radius: 50%;
+    background: #C0C0C0;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    border: 5px solid white;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    transition: all 0.3s ease 0s;
+ 
+}
+
+#accordian .panel-title a.collapsed:after
+{
+    content: "\f067";
+}
+
+
+#accordian .panel-title a:hover:after,
+#accordian .panel-title a.collapsed:hover:after 
+{
+    transform: rotate(360deg);
+}
+
+
+#accordian .panel-body
+{
+    padding: 15px 25px;
+    background-color: #ebebeb;
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 25px;
+    border-top: none;
+    position: relative;
+       
+    
+}
+
+.panel-heading a
+{
+    text-decoration: none !important;
+    font-size: 15px !important;
+    font-weight: normal;
+}
+
+
+.freeimage img
+{
+    margin-top: -45px;
+}
+/*=====section six - faq - end=====*/
 

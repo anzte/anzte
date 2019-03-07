@@ -3,8 +3,7 @@
    "use strict"
     $('.slider').ripples({
       dropRadius: 11,
-      perturbance: 0.01,
-       
+      perturbance: 0.01,       
     });
   
     $(".section-one-slider-text").typed({
@@ -55,14 +54,11 @@
       }
     });
 
-
-
-    $("a").on("click", function() {
+    $("#navi a").on("click", function() {
       var id = $(this).attr('href');
       $('.anzte-padding-top').removeClass('anzte-padding-top'); // remove existing active
       $(id).addClass('anzte-padding-top'); // set current link as active
     });
-
 
     //magnific popup: Responsive jQuery Lightbox Plugin - Dmitry Semenov
     $('.works').magnificPopup({
