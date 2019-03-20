@@ -45,7 +45,6 @@
                 $("nav").removeClass('secondary'); 
                 // console.log('test message remove secondary');
             }
-
           // remove existing active  
     });    
 
