@@ -761,15 +761,15 @@ a[href^="mailto"], a[href^="tel"]{
     color: white;
 }
 
-.social-icon a
+/*.social-icons a
 {
     margin: 0 16px 20px 16px;
     display: inline-block;
     
-}
+}*/
 
 
-.footer .fa
+.footer .social-icons .fa
 {
     font-size: 30px;
     /*color: black;*/
@@ -789,20 +789,19 @@ a[href^="mailto"], a[href^="tel"]{
     -ms-transition: all 0.7s ease-in;
 }
 
-.social-icon a:hover .fa
+.social-icons a:hover .fa
 {   
     border: 10px solid white;
     transform: rotate(360deg);
 }
 
-/*.bordernow
+.bordernow
 {
     width: 40px;
     border-bottom: 2px solid white;
     margin: 0 auto;
-    margin-top: 20px;
-    
-}*/
+    margin-top: 20px;    
+}
 
 .social-icon{
   text-decoration: none;
@@ -900,5 +899,41 @@ a[href^="mailto"], a[href^="tel"]{
   border: 2px solid #1ab7ea;
 }
 
+.copyright .footerlogo
+{
+  padding-top:  6rem;
+}
 
+.copyright .footerlogo .fa
+{
+    font-size: 30px;
+}
+
+.footerlogo
+{
+  text-decoration: none;
+}
+
+.footerlogo:hover
+{
+  text-decoration: none;
+}
+
+.footer-logo-anzte{
+  font-size: 40px;  
+  text-decoration: none;
+}
+
+.footer-logo-anzte:hover
+{
+  text-decoration: none;
+
+}
+.footer-logo-anz{
+  color: #000000;
+}
+.footer-logo-te{
+  color: #ff0000;
+}
 /*=====section - footer - start=====*/
+/**/
