@@ -1,4 +1,6 @@
  jQuery(document).ready(function(){
+  // preloader
+  $('.preloader').fadeOut();
      
    "use strict"
     $('.slider').ripples({
