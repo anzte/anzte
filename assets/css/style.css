@@ -562,7 +562,7 @@ h4.team-member-designation
 /*=====section seven - video - start=====*/
 .video-area
 {
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)),url(..//img/video/video.jpg);
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(..//img/video/video.jpg);
     padding-top: 180px;
     padding-bottom: 180px;
     background-size: cover;
@@ -584,10 +584,10 @@ h4.team-member-designation
     display: inline-block;
     margin-top: 70px;
     margin-bottom: 40px;
-    box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
-    -webkit-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
-    -moz-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
-    -o-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.5);
+    box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.9);
+    -webkit-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.9);
+    -moz-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.9);
+    -o-box-shadow: 0px 0px 0px  20px rgba(0,167,221,0.9);
     transition: all .4s ease-in
     -webkit-transition: all .4s ease-in
     -moz-transition: all .4s ease-in
@@ -597,7 +597,7 @@ h4.team-member-designation
 
 .play:hover
 {
-    box-shadow: 0px 0px 15px  20px rgba(0,84,111,0.5);
+    box-shadow: 0px 0px 15px  20px rgba(0,84,111,0.8);
     -webkit-box-shadow: 0px 0px 15px  20px rgba(0,84,111,0.5);
     -moz-box-shadow: 0px 0px 15px  20px rgba(0,84,111,0.5);   
 }
