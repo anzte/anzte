@@ -631,7 +631,7 @@ h4.team-member-designation
     margin-bottom: -30px;
     background: lightgrey;
     padding-top: 35px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
  
     
 }
@@ -662,8 +662,16 @@ h4.team-member-designation
 {
     color: black;
     margin-top: 15px;
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem;   
+    transition: all 0.5s ease-in-out; 
+}
+
+.contact-infos p:hover
+{
+    color: black;
+    margin-top: 15px;
+    font-size: 1.65rem;  
+    transition: all 0.5s ease-in-out;  
 }
 
 a[href^="mailto"], a[href^="tel"]{ 

@@ -45,7 +45,9 @@
                 $("nav").removeClass('secondary'); 
                 // console.log('test message remove secondary');
             }
-    });
+
+          // remove existing active  
+    });    
 
     //collapse after clicking link
     $(document).on('click','.navbar-collapse.in',function(e) {
