@@ -299,7 +299,7 @@ font-size: 20px;
 }
 
 .whatwedo-wrap {
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
   overflow: hidden;
   padding: 25px 35px;
   position: relative;
@@ -328,7 +328,7 @@ font-size: 20px;
   -o-transition: all 0.5s;
   -ms-transition: all 0.5s;
   opacity: 0;
-  background: #34495e;
+  background: #000000;
 }
 
 .whatwedo-wrap::before {
@@ -370,6 +370,7 @@ font-size: 20px;
 .whatwedo-icon i{
   font-size: 30px;
   margin-bottom: 20px;
+  color: #ff0000;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -527,6 +528,10 @@ h4.team-member-designation
 /*=====section five - testimonials - end=====*/
 
 /*=====section six - faq - start=====*/
+.faqs{
+  background-color: rgba(0,0,0,0.1);
+}
+
 #accordian .panel
 {
   box-shadow: none;
@@ -549,7 +554,7 @@ h4.team-member-designation
     font-size: 20px;
     font-weight: 400;
     color: white;
-    background: #34495e;
+    background: rgba(0,0,0,0.9);
     border: none;
     position: relative;
     transition: all 0.3s ease 0s;
@@ -568,7 +573,7 @@ h4.team-member-designation
     height: 40px;
     line-height: 32px;
     border-radius: 50%;
-    background: #C0C0C0;
+    background: #ff0000;
     text-align: center;
     font-size: 15px;
     color: white;
@@ -580,8 +585,7 @@ h4.team-member-designation
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
-    -ms-transition: all 0.3s ease 0s;
- 
+    -ms-transition: all 0.3s ease 0s; 
 }
 
 #accordian .panel-title a.collapsed:after
@@ -600,7 +604,7 @@ h4.team-member-designation
     padding: 15px 25px;
     background-color: #ebebeb;
     font-size: 14px;
-    color: #8c8c8c;
+    color: #000000;
     line-height: 25px;
     border-top: none;
     position: relative;
@@ -690,10 +694,8 @@ h4.team-member-designation
     /*margin-top: 90px;*/
     margin-bottom: -30px;
     background: white;
-    padding-top: 35px;
-    padding-bottom: 60px;
- 
-    
+    /*padding-top: 30px;*/
+    padding-bottom: 36px;
 }
 
 .contact-infos .fa
@@ -704,7 +706,7 @@ h4.team-member-designation
     width: 50px;
     height: 50px;
     border-radius: 0%;
-    line-height: 50px;
+    line-height: 50px;    
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -749,6 +751,22 @@ h4.team-member-designation
     -ms-transition: all 0.5s ease-in-out;  
 }
 
+.contact-info{
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 20px 30px;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  z-index: 9;
+  /*margin-top: 0px;*/
+  /*margin-bottom: 10px;*/
+  height: 150px;
+}
+
 a[href^="mailto"], a[href^="tel"]{ 
   color: var(--azure);
   text-decoration: none; 
@@ -770,8 +788,8 @@ a[href^="mailto"], a[href^="tel"]{
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    padding-top: 145px;
-    padding-bottom: 120px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-attachment: fixed;
     color: white;
 }

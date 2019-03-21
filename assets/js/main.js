@@ -96,5 +96,5 @@
             }
       });
 
-    $('a').smoothScroll();
+    $('a.smooth-scroll').smoothScroll();
 });
