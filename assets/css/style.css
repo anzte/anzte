@@ -107,7 +107,7 @@ body {
   -ms-transition: all 0.25s ease-in;
 }
 
-.navbar li a:hover {
+.navbar li a:hover, .navbar li a:focus {
   /*color:black !important;*/
   text-transform: none;
   /*font-weight: 500;*/
