@@ -1,17 +1,16 @@
 @media screen and (max-width:403px)
 {
     
-    .slider .text
+    .slider .section-one-slider-text
     {
         display: none;
     }
     
-    .slider .typed-cursor
-    {
+    .slider .section-one-slider-text, .slider .typed-cursor {
         display: none;
     }
     
-    .slider a.btn1, a.btn2
+    .slider a.call-to-action-btn1, a.call-to-action-btn2
     {
         display: block;
         width: 100%;
@@ -22,7 +21,7 @@
 @media screen and (max-width:295px)
 {
     
-    .service-wrap p
+    .whatwedo-wrap p
     {
         font-size: 13px;
     }
