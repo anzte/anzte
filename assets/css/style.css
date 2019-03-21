@@ -797,17 +797,17 @@ a[href^="mailto"], a[href^="tel"]{
     border: 2px solid white;
     text-align: center;
     text-decoration: none;
-    transition: all 0.7s ease-in;
-    -webkit-transition: all 0.7s ease-in;
-    -moz-transition: all 0.7s ease-in;
-    -o-transition: all 0.7s ease-in;
-    -ms-transition: all 0.7s ease-in;
+    transition: all 1.2s ease-in-out;
+    -webkit-transition: all 1.2s ease-in-out;
+    -moz-transition: all 1.2s ease-in-out;
+    -o-transition: all 1.2s ease-in-out;
+    -ms-transition: all 1.2s ease-in-out;
 }
 
-.social-icons a:hover .fa
+.social-icon:hover
 {   
     border: 10px solid white;
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(1.5);
 }
 
 .bordernow
@@ -817,21 +817,6 @@ a[href^="mailto"], a[href^="tel"]{
     margin: 0 auto;
     margin-top: 20px;    
 }
-
-.social-icon{
-  text-decoration: none;
-  font-size: 2rem;
-  transition: all 0.7s ease-out;
-  -webkit-transition: all 0.7s ease-out;
-  -moz-transition: all 0.7s ease-out;
-  -o-transition: all 0.7s ease-out;
-  -ms-transition: all 0.7s ease-out;
-}
-
-.social-icon:hover{
-    color: var(--yellow);
-    transform: scale(1.5);
-  }
 
 .social-icon-twitter{
   color: #ffffff;
