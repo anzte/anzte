@@ -57,11 +57,11 @@
       }
     });
 
-    $("#navi a").on("click", function() {
-      var id = $(this).attr('href');
-      $('.anzte-padding-top').removeClass('anzte-padding-top'); // remove existing active
-      $(id).addClass('anzte-padding-top'); // set current link as active
-    });
+    // $("#navi a").on("click", function() {
+    //   var id = $(this).attr('href');
+    //   $('.anzte-padding-top').removeClass('anzte-padding-top'); // remove existing active
+    //   $(id).addClass('anzte-padding-top'); // set current link as active
+    // });
 
     $("a.footer_ref_link").on("click", function() {
       var id = $(this).attr('href');
