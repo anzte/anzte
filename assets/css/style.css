@@ -854,7 +854,7 @@ a[href^="mailto"], a[href^="tel"]{
 
 .social-icon-twitter:hover{
   color: #1dcaff;
-  border: 2px solid #1da1f2;
+  border: 2px solid #1dcaff;
 }
 
 .social-icon-reddit{
