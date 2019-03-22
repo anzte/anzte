@@ -931,7 +931,6 @@ a[href^="mailto"], a[href^="tel"]{
 /*=====section - social icons - end=====*/
 
 /*=====section - getintouch - end=====*/
-
 .getintouch-area a {
     margin-bottom: 5rem;
 }
@@ -986,7 +985,6 @@ a[href^="mailto"], a[href^="tel"]{
   font-size:15px;
   line-height:24px;
   color: rgba(255,255,255,0.5);;
-
 }
 
 .site-footer hr
