@@ -919,6 +919,17 @@ a[href^="mailto"], a[href^="tel"]{
 }
 /*=====section - social icons - end=====*/
 
+/*=====section - getintouch - end=====*/
+
+.getintouch-area a {
+    margin-bottom: 5rem;
+}
+
+.getintouch-area p {
+    font-size: 2rem;
+}
+/*=====section - getintouch - end=====*/
+
 /*=====section - footer - start=====*/
 /*.copyright .footerlogo
 {
