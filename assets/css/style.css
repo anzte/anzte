@@ -1026,14 +1026,12 @@ a[href^="mailto"], a[href^="tel"]{
   {
     margin-bottom:30px
   }
-}
-@media (max-width:767px)
-{
+  
   .site-footer
   {
     padding-bottom:0
   }
-  .site-footer .copyright-text,.site-footer .social-icons
+  .site-footer .row,.site-footer .social-icons
   {
     text-align:center
   }
