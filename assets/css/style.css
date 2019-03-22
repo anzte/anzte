@@ -785,14 +785,25 @@ a[href^="mailto"], a[href^="tel"]{
 /*=====section - social icons - start=====*/
 .social-icons-list
 {
+  background-color: rgba(0,0,0,0.5);
   background: url(..//img/footer/australia.jpg);
+  /*background:#fff url(..//img/footer/australia.jpg) no-repeat  60% 50%;*/
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  /*padding-top: 100px;
+  padding-bottom: 100px;*/
+  background-attachment: fixed;
+  /*color: white;*/
+}
+
+.social-icons-list .social-slider-overlay
+{
+  background: rgba(255,255,255,0.50);
+  position: relative;
+  width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-attachment: fixed;
-  color: white;
 }
 
 /*.social-icons a
@@ -803,17 +814,17 @@ a[href^="mailto"], a[href^="tel"]{
 }*/
 
 
-.social-icons-list .social-icons .fa
+.social-slider-overlay .fa
 {
   font-size: 30px;
-  /*color: black;*/
+  color: black;
   width: 60px;
   height: 60px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  /*border-top-right-radius: 5px;*/
+  /*border-bottom-left-radius: 5px;*/
   background: transparent;
   line-height: 2;
-  border: 2px solid white;
+  border: 2px solid black;
   text-align: center;
   text-decoration: none;
   transition: all 1.2s ease-in-out;
@@ -970,17 +981,18 @@ a[href^="mailto"], a[href^="tel"]{
 
 .site-footer
 {
-  background-color:#26272b;
+  background-color: rgba(0,0,0,0.8);
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.5);;
+
 }
 
 .site-footer hr
 {
   border-color:#bbb;
-  opacity:0.5
+  opacity:0.5;
   width:100%;
 }
 
@@ -991,9 +1003,9 @@ a[href^="mailto"], a[href^="tel"]{
 
 .site-footer h6
 {
-  color:#fff;
-  font-size:16px;
-  text-transform:uppercase;
+  color:white;
+  font-size:1.8rem;
+  /*text-transform:uppercase;*/
   margin-top:5px;
   letter-spacing:2px
 }
@@ -1026,7 +1038,7 @@ a[href^="mailto"], a[href^="tel"]{
   {
     margin-bottom:30px
   }
-  
+
   .site-footer
   {
     padding-bottom:0
