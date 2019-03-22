@@ -781,15 +781,15 @@ a[href^="mailto"], a[href^="tel"]{
 }
 /*=====section - map - end=====*/
 
-/*=====section - footer - start=====*/
-.footer
+/*=====section - social icons - start=====*/
+.social-icons-list
 {
     background: url(..//img/footer/australia.jpg);
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-attachment: fixed;
     color: white;
 }
@@ -802,7 +802,7 @@ a[href^="mailto"], a[href^="tel"]{
 }*/
 
 
-.footer .social-icons .fa
+.social-icons-list .social-icons .fa
 {
     font-size: 30px;
     /*color: black;*/
@@ -916,8 +916,10 @@ a[href^="mailto"], a[href^="tel"]{
   color: #1ab7ea;
   border: 2px solid #1ab7ea;
 }
+/*=====section - social icons - end=====*/
 
-.copyright .footerlogo
+/*=====section - footer - start=====*/
+/*.copyright .footerlogo
 {
   padding-top:  6rem;
 }
@@ -952,6 +954,76 @@ a[href^="mailto"], a[href^="tel"]{
 }
 .footer-logo-te{
   color: #ff0000;
+}*/
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color: rgba(255,255,255,0.5);
 }
-/*=====section - footer - start=====*/
-/**/
+
+.site-footer hr
+{
+  border-color:#bbb;
+  opacity:0.5
+  width:100%;
+}
+
+.site-footer hr.small
+{
+  margin:20px 0
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.site-footer a
+{
+  color:rgba(255,255,255,0.5);
+}
+
+.site-footer a:hover
+{
+  color: #ff0000;
+  text-decoration:none;
+}
+
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+
+.footer-links li
+{
+  display:block
+}
+
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+/*=====section - footer - end=====*/

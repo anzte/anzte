@@ -63,6 +63,12 @@
       $(id).addClass('anzte-padding-top'); // set current link as active
     });
 
+    $("a.footer_ref_link").on("click", function() {
+      var id = $(this).attr('href');
+      $('.anzte-padding-top').removeClass('anzte-padding-top'); // remove existing active
+      $(id).addClass('anzte-padding-top'); // set current link as active
+    });
+
     //magnific popup: Responsive jQuery Lightbox Plugin - Dmitry Semenov
     $('.works').magnificPopup({
       delegate: 'a', // child items selector, by clicking on it popup will open
@@ -79,21 +85,11 @@
           smartSpeed:700,
           // loop:true,
           autoplayHoverPause:true,
-            responsive:{
-              0:{
-          
-                 items:1
-              }, 
-             480:{
-          
-                 items:2
-              }, 
-                                     
-             768:{
-          
-                 items:3
-              } 
-            }
+          responsive:{
+            0:{ items:1 }, 
+           480:{ items:2 },                                     
+           768:{ items:3} 
+          }
       });
 
     $("a.smooth-scroll").click(function (event) {
